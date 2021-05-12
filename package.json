@@ -1,0 +1,22 @@
+{
+  "name": "nginx-exercise",
+  "version": "1.0.0",
+  "description": "\"convert and query nginx logs\"",
+  "main": "reader.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahRector/nginx-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "reader": "./bin/reader.js"
+  },
+  "bugs": {
+    "url": "https://github.com/SarahRector/nginx-exercise/issues"
+  },
+  "homepage": "https://github.com/SarahRector/nginx-exercise#readme"
+}
