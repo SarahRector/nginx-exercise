@@ -1,0 +1,86 @@
+[
+  {
+    "ipAddress": "10.0.1.7",
+    "requestTimestamp": "[08/Nov/2020:00:00:00",
+    "requestMethod": "\"GET",
+    "requestPath": "/about",
+    "requestStatus": 890,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.8",
+    "requestTimestamp": "[08/Nov/2020:00:00:01",
+    "requestMethod": "\"GET",
+    "requestPath": "/about",
+    "requestStatus": 890,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.6",
+    "requestTimestamp": "[08/Nov/2020:00:00:02",
+    "requestMethod": "\"GET",
+    "requestPath": "/news/",
+    "requestStatus": 1430,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.1",
+    "requestTimestamp": "[08/Nov/2020:00:00:03",
+    "requestMethod": "\"GET",
+    "requestPath": "/",
+    "requestStatus": 1770,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.8",
+    "requestTimestamp": "[08/Nov/2020:00:00:04",
+    "requestMethod": "\"GET",
+    "requestPath": "/",
+    "requestStatus": 1770,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.5",
+    "requestTimestamp": "[08/Nov/2020:00:00:05",
+    "requestMethod": "\"GET",
+    "requestPath": "/about",
+    "requestStatus": 890,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.5",
+    "requestTimestamp": "[08/Nov/2020:00:00:06",
+    "requestMethod": "\"GET",
+    "requestPath": "/about",
+    "requestStatus": 890,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.8",
+    "requestTimestamp": "[08/Nov/2020:00:00:07",
+    "requestMethod": "\"GET",
+    "requestPath": "/",
+    "requestStatus": 1770,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.7",
+    "requestTimestamp": "[08/Nov/2020:00:00:08",
+    "requestMethod": "\"GET",
+    "requestPath": "/",
+    "requestStatus": 1770,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "10.0.1.5",
+    "requestTimestamp": "[08/Nov/2020:00:00:09",
+    "requestMethod": "\"GET",
+    "requestPath": "/news/",
+    "requestStatus": 1430,
+    "userAgent": "\"Mozilla/5.0"
+  },
+  {
+    "ipAddress": "",
+    "requestStatus": null
+  }
+]
