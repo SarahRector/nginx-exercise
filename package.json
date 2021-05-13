@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "reader": "./bin/reader.js"
+    "reader": "./reader.js",
+    "agent": "./agent.js"
   },
   "bugs": {
     "url": "https://github.com/SarahRector/nginx-exercise/issues"

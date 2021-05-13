@@ -9,12 +9,12 @@ const writeFile = process.argv[3];
 
 const file = fs.readFileSync(readFile, "utf-8");
 
-const logs = file.split('\n').map(log => ({
+const logs = file.replace(/[\[\]"]+/g,'').split('\n').map(log => ({
     ipAddress: log.split(' ')[0],
     requestTimestamp: log.split(' ')[3],
     requestMethod: log.split(' ')[5],
     requestPath: log.split(' ')[6],
-    requestStatus: Number(log.split(' ')[9]),
+    requestStatus: Number(log.split(' ')[8]),
     userAgent: log.split(' ')[11]
 }));
 
