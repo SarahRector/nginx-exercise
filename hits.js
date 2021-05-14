@@ -1,7 +1,7 @@
 const fs = require("fs");
 const {filterLogs, methodCount, agentHit} = require('./utils.js');
 
-module.exports = (writeFile, date) => {
+module.exports = () => {
 
 const file = fs.readFileSync(process.argv[3], 'utf-8');
 
@@ -13,6 +13,5 @@ const methods = methodCount(filteredLogs);
 
 const methodHits = agentHit(methods);
 
-console.log(methods, 'methods');
-console.log(methodHits, 'methodHits')
+console.log(methodHits, 'HTTP method/path, times hit')
 };

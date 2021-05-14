@@ -1,9 +1,9 @@
- function filterLogs(logs) {
+function filterLogs(logs) {
     return logs.filter(log => log.requestDate === process.argv[4])
 };
 
- function agentCount(filteredLogs) {
-     return filteredLogs.reduce(function(allLogs, {userAgent}) {
+function agentCount(filteredLogs) {
+    return filteredLogs.reduce(function(allLogs, {userAgent}) {
         if(userAgent in allLogs) {
             allLogs[userAgent]++
         } else {
@@ -19,7 +19,7 @@ function agentHit(allLogs) {
     };
 
 function methodCount(filteredLogs) {
-     return filteredLogs.reduce(function(allLogs, {requestMethod, requestPath}) {
+    return filteredLogs.reduce(function(allLogs, {requestMethod, requestPath}) {
         if(allLogs[requestMethod + requestPath]) {
             allLogs[requestMethod + requestPath]++
         } else {

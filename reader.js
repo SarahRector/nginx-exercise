@@ -2,7 +2,6 @@ const fs = require("fs");
 
 module.exports = (readFile, writeFile) => {
 
-//.replace(/[\[\]"]+/g,'')
 const file = fs.readFileSync(readFile, "utf-8");
 
 const logs = file.split('\n').map(log => ({
