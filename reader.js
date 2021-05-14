@@ -14,6 +14,4 @@ const logs = file.split('\n').map(log => ({
     userAgent: log.split('"')[5]
 }));
 
-fs.writeFileSync(writeFile, JSON.stringify(logs, null, 2));
-
-console.log(logs)};
+fs.writeFileSync(writeFile, JSON.stringify(logs, null, 2))};
