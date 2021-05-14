@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const convert = require('./reader');
+const ua = require('./agent');
+const command = process.argv[2];
+
+ if (command === 'convert') {
+    convert(process.argv[3], process.argv[4]),
+    console.log('access.log converted and stored in access.json');
+} else if (command === 'ua') {
+    ua(process.argv[3], process.argv[4])
+} 
+
+//console.log(process.argv);
+
+//function userAgentByDate(process.argv[3])
