@@ -2,6 +2,7 @@
 
 const convert = require('./reader');
 const ua = require('./agent');
+const hits = require('./hits')
 const command = process.argv[2];
 
  if (command === 'convert') {
@@ -9,7 +10,9 @@ const command = process.argv[2];
     console.log('access.log converted and stored in access.json');
 } else if (command === 'ua') {
     ua(process.argv[3], process.argv[4])
-} 
+} else if (command === 'hits') {
+    hits(process.argv[3], process.argv[4])
+}
 
 //console.log(process.argv);
 

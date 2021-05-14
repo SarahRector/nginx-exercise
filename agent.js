@@ -1,5 +1,5 @@
 const fs = require("fs");
-const {filterLogs, count, mostHit} = require('./utils.js');
+const {filterLogs, agentCount, agentHit} = require('./utils.js');
 
 module.exports = (writeFile, date) => {
 
@@ -9,10 +9,10 @@ const logs = JSON.parse(file);
 
 const filteredLogs = filterLogs(logs);
 
-const counts = count(filteredLogs);
+const agents = agentCount(filteredLogs);
 
-const mostHits = mostHit(counts);
+const agentHits = agentHit(agents);
 
 
-console.log(counts, 'count');
-console.log(mostHits, 'agentHits')};
+console.log(agents, 'agent');
+console.log(agentHits, 'agentHits')};
