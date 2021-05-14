@@ -1,7 +1,7 @@
 const fs = require("fs");
 const {filterLogs, methodCount, agentHit} = require('./utils.js');
 
-module.exports = () => {
+module.exports = (writeFile, date) => {
 
 const file = fs.readFileSync(process.argv[3], 'utf-8');
 
