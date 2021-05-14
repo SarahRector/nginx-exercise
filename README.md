@@ -12,7 +12,9 @@ This exercise runs a Command Line Interface (CLI) that takes in a file of server
 
 - Then, use the following commands to use the CLI:
 
-    - To convert the access.log file to a json file: **./nginxcli convert access.log access.json**
-    - To query the most used userAgent for a given day: **./nginxcli ua access.json 08/Nov/2002** (other dates can be used following the same format)
-    - To query the most used requestMethod and requestPath for a given day: **./nginxcli hits access.json 08/Nov/2020**(other dates can be used following the same format)
-    
+    - To convert the access.log file to a json file: 
+        **./nginxcli convert access.log access.json**
+    - To query the most used userAgent for a given day: 
+        **./nginxcli ua access.json 08/Nov/2002** (other dates can be used following the same format)
+    - To query the most used requestMethod and requestPath for a given day: 
+        **./nginxcli hits access.json 08/Nov/2020** (other dates can be used following the same format)
